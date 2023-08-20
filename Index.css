@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -104,3 +105,186 @@ header {
 .der img {
   height: 15pc;
 }
+=======
+
+
+*{ 
+     padding: 0; 
+     margin: 0; 
+     color: white   ;
+     list-style: none;
+     
+ }
+  
+ body{ 
+     color: white; 
+ } 
+ header{ 
+     background: transparent; 
+     position: absolute; 
+     top: 0; 
+     left: 2pc; 
+
+ } 
+  
+ .container-header img{ 
+     
+     display: flex; 
+     padding: 1.4pc 0 0 7.7pc; 
+    height: 40px;
+ } 
+  
+ .section1{ 
+ height:100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background:url('./img/IMG-20230816-WA0034.jpg'); 
+    flex-direction: column; 
+    gap:1pc; 
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+ } 
+
+ .section1,.section2,.section3,.section4 h1{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    height: 30vh;
+    border: 1px solid red;
+ }
+
+ .bg{ 
+    background: linear-gradient(to top,rgba(0,0,0,0.6) 0, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0.9) 100%); 
+    width:100%; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    } 
+ .bg h1{ 
+    
+     text-align: center; 
+     font-family: 'Prompt', sans-serif;
+     font-size: 3pc; 
+     font-weight: bold; 
+     padding: 10pc 0 0 0 ;
+ }  
+  
+ .bg p{ 
+    
+       text-align: center; 
+     font-size: 1.5pc; 
+ } 
+ p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5pc;
+    display: flex;
+    
+ }
+ .inicio-sesion{ 
+  
+     border: none; 
+     border-radius: 3px; 
+     padding: 0 1pc; 
+     height: 2.5pc;     
+     width: 50%; 
+     display: flex; 
+     align-items: center; 
+     justify-content: center; 
+     gap: 0.5pc; 
+       
+ } 
+  
+ .inicio-sesion button{ 
+     background-color: #e50914; 
+     border-radius: 3px; 
+     padding: 0 1pc; 
+     height: 2.5pc;     
+     width: 30%; 
+     color: white; 
+     font-size: 15px; 
+     border: none; 
+ } 
+  
+ .section1,.section2,.section3,.section4{ 
+     height:100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;  
+    background-color: black; 
+ } 
+
+ .section2,.section3,.section4{
+    height: 90vh;
+ }
+ .izq{ 
+     flex-direction: column; 
+     display: flex; 
+     width: 60%; 
+     text-align:start ;
+  
+     } 
+
+.izq img{
+    height: 25pc;
+    
+}
+  
+ .der{ 
+     width: 40%; 
+     display: flex;
+     align-items: center; 
+     justify-content: start;
+     flex-direction: column;
+     text-align: start;
+     padding: 0 12pc;
+ } 
+ .der img{ 
+     height: 25pc; 
+ }
+ 
+ footer{
+     height:100vh; 
+    display: flex;
+    justify-content: center;  
+    background-color: black; 
+    padding: 4pc ;
+ }
+ 
+ footer .inicio-sesion{
+    width: 75%;
+    padding: 0 6pc;
+
+    
+ }
+ footer .inicio-sesion button{
+   
+    width:50%;
+ }
+ 
+ .containerOp{
+     display: flex;
+     align-items: star;
+     gap: 2pc;
+     padding: 1pc;
+ }
+ 
+ .containerOp div{
+     display: flex;
+     flex-direction: column;
+     gap:1pc;
+     text-align: left;
+     font-family: 'Prompt', sans-serif;
+ }
+ 
+ .containerOp select{
+     width: 50%;
+     color: white;
+     border-radius: 3px;
+     background: black;
+     border: 1px solid gray;
+ }
+>>>>>>> eceed5811f997463ecabbc5c37e6107e5b54ddb4
