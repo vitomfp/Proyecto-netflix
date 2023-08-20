@@ -11,7 +11,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.4pc 0.6pc;
+  padding: 1pc 0.6pc;
 }
 nav div {
   display: flex;
@@ -41,7 +41,6 @@ nav div {
 }
 .Sec1 {
   position: relative;
-  border: 1px solid yellow;
   background-image: linear-gradient(
       36deg,
       #181818 10%,
