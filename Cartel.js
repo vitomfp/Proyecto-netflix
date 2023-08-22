@@ -4,7 +4,7 @@ if (screen.width > 600) {
   console.log(screen.width);
   miImagen.style.width = "7pc";
   miImagen.src =
-    "https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/documentos%2Fnetflux.png?alt=media&token=76c0c8b4-f3c3-495f-911f-ae13c0370dfc";
+    "https://firebasestorage.googleapis.com/v0/b/fb-react-e2e7c.appspot.com/o/netflix%20grande.png?alt=media&token=c66d5fc0-5d93-456d-8544-e492b8453899";
 }
 const init = document.getElementById("init")
 
