@@ -1,5 +1,11 @@
 const video = document.getElementById('video')
+const play = document.getElementById('play')
 
-setTimeout(function () {
-        video.style.opacity = "1";
-    }, 3000);
+ 
+ 
+ 
+play.addEventListener('click', ()=>{
+    console.log('kei')
+    video.style.opacity = "1";
+    video.play();
+})
