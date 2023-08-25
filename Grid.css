@@ -11,7 +11,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1pc 0.6pc;
+  padding: 1pc 4pc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  z-index: 2;
+  transition: background-color 0.3s ease-in-out;
+  background-color: transparent;
 }
 nav div {
   display: flex;
@@ -67,11 +74,14 @@ nav div {
   background-repeat: no-repeat;
   height: 86vh;
 }
-.Sec1 img {
-  width: 35%;
+.inf {
   position: absolute;
-  bottom: 0pc;
-  left: 1.6pc;
+  bottom: 1pc;
+  left: 3.6pc;
+  width: 29pc;
+}
+.inf img {
+  width: 80%;
 }
 .Sec2 {
   padding: 0 3.6pc;
@@ -91,7 +101,7 @@ nav div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 30%;
+  width: 54%;
   color: gray;
 }
 .pro {
@@ -116,7 +126,6 @@ nav div {
 }
 .imgCarteel {
   width: 30%;
- 
 }
 .containerInfo {
   display: flex;
@@ -129,23 +138,49 @@ nav div {
   justify-content: center;
   border: 1px solid white;
   flex-direction: column;
-  gap: 1pc;
+  gap: 2pc;
 }
 .Prota p {
   width: 30%;
   text-align: center;
 }
-  .Scrool{
-      display: grid;
-      grid-template-columns: repeat(6,20pc);
-      white-space: nowrap;
-  }
+.Scrool {
+  white-space: nowrap;
+  overflow: scroll;
+  width: 100%;
+}
+.Prota div {
+  width: 100%;
+  border: 1px solid red;
+}
+.Scrool img {
+  width: 25%;
+}
+::-webkit-scrollbar {
+  width: 0; /* Ancho de la barra de desplazamiento */
+}
+footer {
+  height: 11pc;
+  display: flex;
+  /* width: 101%; */
+  align-items: center;
+  justify-content: center;
+}
+footer select {
+  width: 90%;
+  height: 2pc;
+  background: #00000063;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+}
 @media (max-width: 600px) {
   nav {
     padding: 4px 0.6pc 4px 0;
+    width: 98%;
   }
   .Sec1 {
-    height: 26vh;
+    height: 35vh;
     padding-top: 4pc;
     background-image: linear-gradient(
         0deg,
@@ -195,16 +230,13 @@ nav div {
   .Prota p {
     width: 100%;
   }
-    .Scrool{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap:1pc;
-      overflow: scroll;
-      width: 22pc;
-  }
   .Scrool img {
-      width: 90%;
+    width: 50%;
   }
-  
+  .inf {
+    position: absolute;
+    bottom: 1pc;
+    left: 1.6pc;
+    width: 90%;
+  }
 }

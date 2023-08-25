@@ -1,5 +1,6 @@
 const video = document.getElementById("video");
 const play = document.getElementById("play");
+const Sec1 = document.getElementById("Sec1");
 const miImagen = document.getElementById("miImagen");
 
 if (screen.width > 600) {
@@ -13,4 +14,5 @@ play.addEventListener("click", () => {
   console.log("kei");
   video.style.opacity = "1";
   video.play();
+  Sec1.style.background = "#181818";
 });
