@@ -68,7 +68,7 @@ nav div {
       hsla(0, 0%, 9%, 0.03) 95%,
       hsla(0, 0%, 9%, 0)
     ),
-    url("https://occ-0-2207-3934.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfyOi9RFm0rB9AExXbyHRyR3AAQ2YGgdwNLbFt8Gr7nPKPNArEOS01Xr7i1scVMzyiCdrl8X8paLpe9ooMJqVAiAnTjsfLPJtlA1.webp?r=484");
+    url("https://occ-0-1595-3934.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYKL3XvNNOx1R22MKwtLnbsM_U3xvmfY4KSSjskdb8nkVIVAwu4Ggzvew8og89c7fuT1IaePTwTXQW110pEdj5sK0A0QSMPHvWVa.jpg?r=29e");
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -79,6 +79,9 @@ nav div {
   bottom: 1pc;
   left: 3.6pc;
   width: 29pc;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6pc;
 }
 .inf img {
   width: 80%;
@@ -136,7 +139,6 @@ nav div {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid white;
   flex-direction: column;
   gap: 2pc;
 }
@@ -151,7 +153,6 @@ nav div {
 }
 .Prota div {
   width: 100%;
-  border: 1px solid red;
 }
 .Scrool img {
   width: 25%;
@@ -180,7 +181,7 @@ footer select {
     width: 98%;
   }
   .Sec1 {
-    height: 35vh;
+    height: 57vh;
     padding-top: 4pc;
     background-image: linear-gradient(
         0deg,
@@ -202,7 +203,7 @@ footer select {
         hsla(0, 0%, 9%, 0.03) 95%,
         hsla(0, 0%, 9%, 0)
       ),
-      url("https://occ-0-2207-3934.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfyOi9RFm0rB9AExXbyHRyR3AAQ2YGgdwNLbFt8Gr7nPKPNArEOS01Xr7i1scVMzyiCdrl8X8paLpe9ooMJqVAiAnTjsfLPJtlA1.webp?r=484");
+      url("https://occ-0-1595-3934.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYKL3XvNNOx1R22MKwtLnbsM_U3xvmfY4KSSjskdb8nkVIVAwu4Ggzvew8og89c7fuT1IaePTwTXQW110pEdj5sK0A0QSMPHvWVa.jpg?r=29e");
   }
   .Sec1 img {
     width: 50%;
@@ -235,7 +236,7 @@ footer select {
   }
   .inf {
     position: absolute;
-    bottom: 1pc;
+    bottom: 0pc;
     left: 1.6pc;
     width: 90%;
   }
