@@ -86,7 +86,7 @@ hacerInvisible();
 btnInit.addEventListener("click", () => {
   if (IdAc.value == "keynerdelahoz@gmail.com" && Contra.value == "123456") {
     console.log("vanos bien ");
-    window.location.href = "./Grid.html";
+    window.location.href = "./inicio.html";
   } else {
     IdAc.style.border = "1px solid red";
     Contra.style.border = "1px solid red";

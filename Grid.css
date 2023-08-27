@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background: #181818;
   color: white;
   font-family: sans-serif;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -20,14 +22,17 @@ nav {
   transition: background-color 0.3s ease-in-out;
   background-color: transparent;
 }
+
 nav div {
   display: flex;
   align-items: center;
   gap: 0.6pc;
 }
+
 .img {
   width: 4pc;
 }
+
 .init {
   font-size: 13px;
   padding: 9px 12px;
@@ -36,6 +41,7 @@ nav div {
   background-color: transparent;
   color: white;
 }
+
 .uni {
   font-size: 13px;
   padding: 9px 12px;
@@ -46,10 +52,10 @@ nav div {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
   color: #fff;
 }
+
 .Sec1 {
   position: relative;
-  background-image: linear-gradient(
-      36deg,
+  background-image: linear-gradient(36deg,
       #181818 10%,
       hsla(0, 0%, 9%, 0.98) 20%,
       hsla(0, 0%, 9%, 0.97) 25%,
@@ -66,14 +72,14 @@ nav div {
       hsla(0, 0%, 9%, 0.15) 85%,
       hsla(0, 0%, 9%, 0.08) 90%,
       hsla(0, 0%, 9%, 0.03) 95%,
-      hsla(0, 0%, 9%, 0)
-    ),
+      hsla(0, 0%, 9%, 0)),
     url("https://occ-0-1595-3934.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbYpLru0To3H2KsEmwHNn0NajLOVXSjzExkn-aebmcgb0pbHm8SOr3k3L0XL4_mbVs1p82xa5wGkchUTuSZvrvHf_0myw7OPrLwo.webp?r=f57");
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
   height: 86vh;
 }
+
 .inf {
   position: absolute;
   bottom: 4pc;
@@ -83,9 +89,11 @@ nav div {
   flex-direction: column;
   gap: 1.6pc;
 }
+
 .inf img {
   width: 80%;
 }
+
 .Sec2 {
   padding: 0 3.6pc;
   display: flex;
@@ -93,13 +101,16 @@ nav div {
   gap: 1pc;
   font-size: 1.2pc;
 }
+
 .Sec2 h1 {
   font-size: 3pc;
 }
+
 .span {
   border: 1px solid gray;
   padding: 1px 3px;
 }
+
 .clasifi {
   display: flex;
   align-items: center;
@@ -107,9 +118,11 @@ nav div {
   width: 54%;
   color: gray;
 }
+
 .pro {
   color: gray;
 }
+
 .more {
   display: flex;
   align-items: center;
@@ -118,23 +131,28 @@ nav div {
   background-image: linear-gradient(90deg, #333 5%, #181818 95%);
   padding: 0.8pc 0.3pc;
 }
+
 .more div {
   display: flex;
   flex-direction: column;
   gap: 0.5pc;
 }
+
 .Grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .imgCarteel {
   width: 30%;
 }
+
 .containerInfo {
   display: flex;
   align-items: center;
   gap: 1.6pc;
 }
+
 .Prota {
   display: flex;
   align-items: center;
@@ -142,24 +160,36 @@ nav div {
   flex-direction: column;
   gap: 2pc;
 }
+
 .Prota p {
   width: 30%;
   text-align: center;
 }
+
 .Scrool {
   white-space: nowrap;
   overflow: scroll;
   width: 100%;
 }
+
 .Prota div {
   width: 100%;
 }
+
 .Scrool img {
   width: 25%;
+  transition: all 0.6s ease-in-out;
 }
+
+.Scroolimg:hover {
+  width: 28%;
+}
+
 ::-webkit-scrollbar {
-  width: 0; /* Ancho de la barra de desplazamiento */
+  width: 0;
+  /* Ancho de la barra de desplazamiento */
 }
+
 footer {
   height: 11pc;
   display: flex;
@@ -167,6 +197,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
 footer select {
   width: 90%;
   height: 2pc;
@@ -175,19 +206,21 @@ footer select {
   border-radius: 3px;
   color: white;
 }
+
 @media (max-width: 600px) {
   nav {
     padding: 4px 0.6pc 4px 0;
     width: 98%;
   }
+
   .inf {
     bottom: 1pc;
   }
+
   .Sec1 {
     height: 57vh;
     padding-top: 4pc;
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         #181818 10%,
         hsla(0, 0%, 9%, 0.98) 20%,
         hsla(0, 0%, 9%, 0.97) 25%,
@@ -204,39 +237,48 @@ footer select {
         hsla(0, 0%, 9%, 0.15) 85%,
         hsla(0, 0%, 9%, 0.08) 90%,
         hsla(0, 0%, 9%, 0.03) 95%,
-        hsla(0, 0%, 9%, 0)
-      ),
+        hsla(0, 0%, 9%, 0)),
       url("https://occ-0-1595-3934.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQu9mse0lSb9MtIXnowfBtmd6q_g_5bdhpYWNxFjVNF76JyhXUZudM5h7rZG3eIP_m9acUlTRss79HUoxXlTxtYf_6JfKJE6g9if.jpg?r=590");
   }
+
   .Sec1 img {
     width: 50%;
   }
+
   .clasifi {
     width: 80%;
   }
+
   .Sec2 h1 {
     font-size: 2pc;
   }
+
   .Sec2 {
     font-size: 1pc;
     padding: 0 1.6pc;
   }
+
   .containerInfo {
     flex-direction: column;
   }
+
   .imgCarteel {
     width: 100%;
   }
+
   .Grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1pc;
   }
+
   .Prota p {
     width: 100%;
   }
+
   .Scrool img {
     width: 50%;
   }
+
   .inf {
     position: absolute;
     bottom: 1pc;
