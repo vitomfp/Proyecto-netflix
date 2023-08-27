@@ -26,3 +26,24 @@ inputs.forEach((input, index) => {
     }
   });
 });
+
+const no = document.getElementById("no");
+const na = document.getElementById("na");
+const bola = document.getElementById("bola");
+const tam = document.getElementById("tam");
+
+no.addEventListener("click", () => {
+  console.log("hello");
+  window.location.href = "#2";
+  bola.style.top = "25%";
+  bola.style.left = "5%";
+  bola.style.background = "#181818";
+});
+na.addEventListener("click", () => {
+  console.log("hello");
+  window.location.href = "#3";
+  bola.style.bottom = "5%";
+  bola.style.background = "#ff8800";
+});
+
+tam.innerText = `Tamaño de pantalla a lo alto ${screen.height} y tamaño a lo ancho ${screen.width}`;

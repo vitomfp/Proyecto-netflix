@@ -8,6 +8,9 @@ body {
   color: white;
   font-family: sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 main {
   display: flex;
   align-items: center;
@@ -48,6 +51,18 @@ section div {
   align-items: center;
   gap: 1pc;
 }
+.movable-element {
+  position: fixed;
+  top: 50%; /* Coloca el elemento en el centro verticalmente */
+  left: 50%; /* Coloca el elemento en el centro horizontalmente */
+  /* transform: translate(-50%, -50%); Centra el elemento exactamente */
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
 @media screen and (max-width: 600px) {
   section {
     flex-direction: column;
